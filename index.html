@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Soundboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Reproductor + Pads</h1>
+
+<div class="player">
+
+    <button id="playBtn">▶ Play</button>
+    
+    <audio id="mainAudio" src="sounds/musica.mp3"></audio>
+
+    <div class="volumeControl">
+        🔊 Volumen
+        <input type="range" id="volumeSlider" min="0" max="100" value="25">
+    </div>
+
+</div>
+
+<div class="pads" id="pads"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
